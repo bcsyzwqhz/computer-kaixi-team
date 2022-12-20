@@ -6,34 +6,37 @@
  **但是有些程序会给电脑带来不可估量的损失！** 
 
 #### 软件架构
-软件架构说明
+Windows & Linux
+x86_64 arm32/arm64
 
 
-#### 安装教程
+#### 软件功能
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1.  无限弹窗：顾名思义就是会弹出一个关不掉的弹窗
+2.  乱码：在控制台窗口刷字符串
+3.  瞬间关机/休眠/重启
+4.  爆内存：瞬间占领电脑内存
+5   鼠标乱飞：让鼠标指针不受控制地飞起来
 
 #### 使用说明
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+1.  有配套无限启动器，要与本体程序放在统一目录下
+例如：乱码无限启动器要与乱码.exe放在统一目录下，否则无限启动器没有任何用处
+ **无限启动器可能会给电脑带来毁坏！**
 
 
-#### 特技
+#### 附:恶搞方法
 
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+1.  将某个常用软件的指向文件换成电脑开席大队的程序。但图标不变
+2.  设置成开机自启
+
+#### 贡献
+
+本程序还有很多不足之处
+
+希望大家可以贡献自己的一点创意
+
+记得[输入图片说明](02279245.png)一下哦！
+
+
+
