@@ -1,5 +1,11 @@
 #include<bits/stdc++.h>
+#include<windows.h> 
 using namespace std;
+void SetColor(int text,int back)
+{
+	WORD color=((back&0x0f)<<4)+(text&0x0f);
+	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE),color);
+}
 int main()
 {
 	while(1)
@@ -10,6 +16,7 @@ int main()
 	ch=(rand()%128+1);
 	else
 	ch=(rand()%128+1)*-1;
+	SetColor(rand()%14+1,0);
 	cout<<ch;
  } 
 }
