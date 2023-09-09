@@ -8,6 +8,7 @@ void SetColor(int text,int back)
 }
 int main()
 {
+	srand(time(0));
 	while(1)
 	{
 	char ch;
