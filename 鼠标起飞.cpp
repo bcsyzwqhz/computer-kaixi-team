@@ -1,11 +1,14 @@
 #include<windows.h>
-#include<time.h> 
+#include<random>
 int main()
 {
-	srand(time(0));
+	HWND h;
+	h=FindWindow("ConsoleWindowClass",0);
+	ShowWindow(h,SW_HIDE);
+	std::default_random_engine e;
 	int x,y;
 	x=GetSystemMetrics(SM_CXSCREEN);
 	y=GetSystemMetrics(SM_CYSCREEN);
 	for(;;)
-	SetCursorPos(rand()%x,rand()%y);
+	SetCursorPos(e()%x,e()%y);
 } 

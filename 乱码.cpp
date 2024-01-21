@@ -8,15 +8,15 @@ void SetColor(int text,int back)
 }
 int main()
 {
-	srand(time(0));
+	default_random_engine e;
 	while(1)
 	{
 	char ch;
-	if(rand()%2+1==1)
-	ch=(rand()%128+1);
+	if(e()%2+1==1)
+	ch=(e()%128+1);
 	else
-	ch=(rand()%128+1)*-1;
-	SetColor(rand()%14+1,0);
+	ch=(e()%128+1)*-1;
+	SetColor(e()%14+1,0);
 	putchar(ch);
 	} 
 }
